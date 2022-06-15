@@ -1,0 +1,13 @@
+// CENTRAR TODO
+
+@mixin centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin anchoMax {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

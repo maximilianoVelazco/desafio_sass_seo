@@ -1,0 +1,122 @@
+/* FUENTES Y TEXTO */
+p {
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+
+h2 {
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* CONTENEDORES GENERALES */
+.contenedor {
+    @include anchoMax();
+}
+
+.tittle {
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.centrar {
+    @include centrar();
+}
+
+.tarjetaBox {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+.tarjetaBox:last-child {
+    margin-bottom: 0;
+}
+
+.iconBox {
+    width: 115px;
+    height: 115px;
+    padding: 5px;
+    margin-right: 2rem;
+    border-radius: $bordeRadius;
+}
+
+.bg1 {
+    background-color: nth($colorBg, 1 );
+}
+
+.bg2 {
+    background-color: nth($colorBg, 2 );
+}
+
+.bg3 {
+    background-color: nth($colorBg, 3 );
+}
+
+.bg4 {
+    background-color: nth($colorBg, 4 );
+}
+
+.animate__delay-05s {
+    animation-delay: 0.5s;
+}
+
+/* UBICACION */
+iframe {
+    width: 80%;
+    height: 350px;
+    border: none;
+}
+
+/************************** CLASES COMPLEMENTARIAS A BOOTSTRAP **************************/
+/* MARGENES EXTRAS */
+/* margin bottom */
+.mb-7 {
+    margin-bottom: 5rem;
+}
+
+/* margin top */
+.mt-7 {
+    margin-top: 5rem;
+}
+.mt-8 {
+    margin-top: 6rem;
+}
+
+.letrasize {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/* color font */
+.txtWhite {
+    color: $colorBlanco;
+}
+
+/* filtro para imagenes */
+.img-filter {
+    filter: brightness(0.4);
+    transition: $transicion;
+}
+
+.card:hover .img-filter {
+    filter: brightness(0.1);
+}
+
+.pe-5 {
+    padding-right: 3rem;
+}
+
+
+
