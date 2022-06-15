@@ -43,10 +43,12 @@ footer {
 .btn-mod:hover {
   border: 2px, solid, #141414;
   background-color: #141414;
+  color: #FAEBD7;
 }
 
 .btn-mod:visited {
   background-color: #E5E5E5;
+  color: #141414;
 }
 
 /* Boton subir */

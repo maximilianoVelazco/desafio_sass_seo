@@ -14,10 +14,12 @@
 .btn-mod:hover {
     border: $borde;
     background-color: $colorPrincipal;
+    color: $colorBlanco;
 }
 
 .btn-mod:visited {
     background-color: nth($colorBg, 1 );
+    color: $colorPrincipal;
 }
 
 
