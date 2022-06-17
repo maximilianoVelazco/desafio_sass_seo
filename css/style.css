@@ -168,6 +168,15 @@ footer .contenedor .menuSocial img {
   padding: 10px;
   border-radius: 5px;
 }
+footer .contenedor .menuSocial .btn-instagram {
+  background-color: #f10929;
+}
+footer .contenedor .menuSocial .btn-facebook {
+  background-color: #375496;
+}
+footer .contenedor .menuSocial .btn-twitter {
+  background-color: #1c99e6;
+}
 
 form label {
   font-size: 1.2rem;
@@ -200,8 +209,7 @@ form textarea:focus-visible {
   grid-template-rows: auto 400px 400px 400px 200px 200px 100px;
   padding: 0 18px;
 }
-.gridLayoutProyectos .box2,
-.gridLayoutProyectos .box4,
+.gridLayoutProyectos .box2, .gridLayoutProyectos .box4,
 .gridLayoutProyectos .box6,
 .gridLayoutProyectos .box10 {
   padding: 3rem;
@@ -210,7 +218,9 @@ form textarea:focus-visible {
 .gridLayoutProyectos .box1 {
   grid-area: box1;
 }
-.gridLayoutProyectos .box2 {
+.gridLayoutProyectos .box2, .gridLayoutProyectos .box4,
+.gridLayoutProyectos .box6,
+.gridLayoutProyectos .box10 {
   grid-area: box2;
 }
 .gridLayoutProyectos .box3 {

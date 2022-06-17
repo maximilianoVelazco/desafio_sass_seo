@@ -13,12 +13,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto 400px 400px 400px 200px 200px 100px;
     padding: 0 18px;
-    .box2,
-    .box4,
-    .box6,
-    .box10 {
+    .box2{
     padding: 3rem;
     text-align: center;
+    }
+    .box4,
+    .box6,
+    .box10{
+        @extend .box2
     }
     .box1 {
         grid-area: box1;

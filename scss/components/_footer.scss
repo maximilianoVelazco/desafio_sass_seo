@@ -16,6 +16,15 @@ footer {
                 padding: 10px;
                 border-radius: $bordeRadius;
             }
+            .btn-instagram{
+                background-color: map-get($coloresRedes, colorInstagram );
+            }
+            .btn-facebook{
+                background-color: map-get($coloresRedes, colorFacebook );
+            }
+            .btn-twitter{
+                background-color: map-get($coloresRedes, colorTwitter );
+            }
         }
     }
 }
